@@ -19,7 +19,8 @@ public class Course {
 
     // Métodos para obtener el nombre del curso
     public String getCourseName() {
-        return courseName;
+    	System.out.println("Nombre del curso: " + courseName);
+        return courseName; 
     }
 
     // Método para inscribir un estudiante
